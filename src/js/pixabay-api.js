@@ -1,5 +1,5 @@
-import axios from 'axios';
-axios.defaults.baseURL = 'https://pixabay.com/api/';
+// import axios from 'axios';
+// axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 export async function getPhotos(q, currentPage, perPage) {
   const options = {
@@ -10,11 +10,11 @@ export async function getPhotos(q, currentPage, perPage) {
       orientation: 'horizontal',
       safesearch: 'true',
       page: currentPage,
-      // per_page: perPage,
+      per_page: perPage,
     },
   };
 
-  const { data } = await axios.get('', options);
+  // const { data } = await axios.get('', options);
 
-  return data;
+  // return data;
 }
