@@ -10,7 +10,7 @@ export async function getPhotos(q, currentPage, perPage) {
       orientation: 'horizontal',
       safesearch: 'true',
       page: currentPage,
-      per_page: perPage,
+      // per_page: perPage,
     },
   };
 
