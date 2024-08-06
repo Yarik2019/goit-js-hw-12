@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
 import 'izitoast/dist/css/iziToast.min.css';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { getPhotos, perPage } from './js/pixabay-api';
+// import { getPhotos, perPage } from './js/pixabay-api';
 import { imagesMarkup } from './js/render-functions';
 import iconError from './img/error.svg';
 import iconSuccess from './img/success.svg';
