@@ -78,7 +78,6 @@ async function onSearchGallery(event) {
     }
 
     numberOfPages = Math.ceil(response.totalHits / perPage);
-    console.log(numberOfPages);
 
     ul.innerHTML = imagesMarkup(response.hits);
 
